@@ -1,0 +1,14 @@
+# Backend (main.py)
+fastapi==0.109.1
+uvicorn==0.27.0
+pydantic==2.6.1
+requests==2.31.0
+python-multipart==0.0.6  # Para manejo de formularios en FastAPI
+
+# Frontend (app.py)
+streamlit==1.32.0
+fpdf2==2.7.7  # Alternativa moderna a FPDF
+python-base64==0.4.0  # Para codificación PDF
+
+# Desarrollo (opcional)
+python-dotenv==1.0.0  # Para manejar variables de entorno (API keys)
