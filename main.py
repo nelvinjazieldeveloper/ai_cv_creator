@@ -6,7 +6,7 @@ import requests
 app = FastAPI()
 
 # Configuración de Gemini AI (reemplaza con tu API key real)
-API_KEY = "AIzaSyAjVwQIUl3LLGkOA_j8hY8k7S-EQN1FCRg"
+API_KEY = "YOUR_API_KEY"
 MODEL = "gemini-1.5-pro-latest"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 
